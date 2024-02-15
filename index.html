@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+    <!--Mascara de fundo do formulario-->
+    <div id="mascara-Form"></div>
+
+    <!--Menu de Serviços-->
+    <div class="list">
+        <header>
+            <ul>
+                <li class="Home"><a href="#">Home</a></li>
+                <li id="contacts"><a>Fale Conosco</a></li>
+                <li class="Services"><a href="#" class="services">Serviços</a></li>
+            </ul>
+            <!--Icone Menu-->
+            <div class="logo-head">
+                <img src="image/logo-header.png" alt="" class="logo-head-mario">
+            </div>
+        </header>
+    </div>
+
+<!--****************************************************************************************************-->
+
+<!--class(box) -> CAIXAMÃE-->
+    <div class="box">
+
+<!--class(content) guarda o conteudo principal da pagina-->
+        <div class="content">
+
+<!--class(logo-mario) Imagem Acima dos paragrafos Initial E Segund-->
+            <img src="image/logo.png" alt="" class="logo-mario">
+
+<!--class(Initial) Paragrafo Intrudutorio-->
+            <p class="Initial">Encanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo! </p>
+<!--class(Segund) Paragrafo Segundario -->
+
+            <p class="Segund">Voce já se encontrou em uma situação de emergencia com encanamentos? Vazamentos inesperados, canos
+                entupidos
+                ou torneiras que não param de pingar? não se preocupe,por que estamos aqui para salvar o dia!
+                Apresentamos avoces os encanadores mais famosos do Reino Dos cogumelos-Mario & Luigi!</p>
+<!--Botão Entre em contato-->
+            <button id="BtnConts">Entre Em contado</button>
+        </div>
+
+<!--class(img) Imagem mario e luigi juntos-->
+        <div class="img">
+            <img src="image/mario.png" alt="Irmãos mario e luigi" class="imagem-mario-luigi">
+        </div>
+
+<!--Termino da div.box-->
+    </div>
+        
+<!--Video Fundo-->
+    <div class="caixa-de-video">
+        <video src="image/video.mp4" autoplay muted loop class="video"></video>
+        
+    </div>
+
+<!--Icone Whatsapp-->
+    <div class="what">
+        <a href="https://wa.me/5533998606815?text=Ola%21" target="_blank">
+            <img src="image/whatsapp.png" alt="" class="whats">
+        </a>
+    </div>
+    <!--Mascara Do Video de fundo-->
+    <div id="Mascara"></div>
+</body>
+<!--Formulario-->
+<form id="campo" action="https://formcarry.com/s/DpCVa8_mtXH" method="POST" enctype="multipart/form-data">
+    <input type="text" class="lvlinput" placeholder="Seu nome" name="nome">
+    <input type="tel" class="lvlinput" placeholder="Seu Telefóne" name="telefone">
+    <textarea name="duvida" placeholder="Digite seu problema aqui..." class="txta" rows="2" ></textarea>
+    <button type="submit"  class="lvlbutton">PEDIR ORÇAMENTO</button>
+</form>
+
+<script src="script.js"></script>
+
+</html>
